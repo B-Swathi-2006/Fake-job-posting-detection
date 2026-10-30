@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gen Z Side Hustle — Demo Job Posting</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #201b2e;
+      background: linear-gradient(135deg, #f5efff, #fff7fb);
+    }
+    header {
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 18px; padding: 20px 6%; background: white;
+      border-bottom: 3px solid #7c3aed;
+    }
+    .brand { font-size: 25px; font-weight: 800; color: #6d28d9; }
+    nav { color: #514568; }
+    .demo {
+      margin: 22px auto 0; max-width: 1050px; padding: 10px 16px;
+      color: #6b3d00; background: #fff1c2; border: 1px solid #f5d46a;
+      border-radius: 8px; font-size: 14px;
+    }
+    main {
+      display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(260px, 1fr);
+      gap: 24px; max-width: 1050px; margin: 18px auto 40px; padding: 0 16px;
+    }
+    .card {
+      background: white; border-radius: 16px; padding: 28px;
+      box-shadow: 0 8px 28px rgba(66, 35, 110, .09);
+      border: 1px solid #eee5ff;
+    }
+    .tag {
+      display: inline-block; padding: 8px 12px; border-radius: 20px;
+      background: #ffe4ef; color: #a21caf; font-weight: 700; font-size: 13px;
+    }
+    h1 { font-size: clamp(27px, 4vw, 38px); margin: 16px 0 12px; }
+    h2 { font-size: 19px; margin-top: 26px; }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px 18px; color: #625772; }
+    .salary { color: #13804a; font-size: 22px; font-weight: 800; }
+    .slang { background: #f5efff; padding: 15px; border-radius: 10px; line-height: 1.7; }
+    .red { color: #c62828; font-weight: 700; }
+    li { margin: 8px 0; line-height: 1.45; }
+    .apply {
+      display: block; width: 100%; border: 0; border-radius: 9px;
+      background: #6d28d9; color: white; padding: 14px; font-size: 16px;
+      font-weight: 700; cursor: pointer; margin: 15px 0;
+    }
+    .warning {
+      padding: 16px; background: #fff0f0; border: 1px solid #ffcaca;
+      border-radius: 10px; color: #a51d1d; line-height: 1.55;
+    }
+    .small { color: #756b83; font-size: 13px; line-height: 1.5; }
+    footer { text-align: center; padding: 20px; color: #756b83; font-size: 13px; }
+    @media (max-width: 720px) {
+      header { align-items: flex-start; flex-direction: column; }
+      main { grid-template-columns: 1fr; }
+      .card { padding: 21px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">✨ VibeHire</div>
+    <nav>Explore Jobs　　Internships　　Side Hustles　　About</nav>
+  </header>
+
+  <div class="demo">
+    <strong>PROJECT TEST PAGE:</strong> This is a fictional job advertisement created only to test a fake-job detection model. Do not send money or personal information.
+  </div>
+
+  <main>
+    <section class="card">
+      <span class="tag">🔥 URGENT HIRING · REMOTE</span>
+      <h1>✨ Social Media Hype Assistant</h1>
+      <div class="meta">
+        <span>🏢 NextGen Viral Labs (fictional)</span>
+        <span>📍 Work from anywhere</span>
+        <span>🕒 Part-time</span>
+      </div>
+
+      <h2>💸 The offer</h2>
+      <p class="salary">₹60,000–₹90,000 per month</p>
+      <p>Bestie, want to make money while scrolling? No cap — this is your chance to turn screen time into a full-time vibe. No degree, no experience, no interview. Just good energy!</p>
+
+      <div class="slang">
+        <strong>Lowkey sounds too good to be true?</strong><br>
+        • Work only 1–2 hours a day<br>
+        • Get paid every evening<br>
+        • “Easy money” for liking, sharing and rating posts<br>
+        • Start today — only 5 spots left fr fr
+      </div>
+
+      <h2>📱 What you'll do</h2>
+      <ul>
+        <li>Like and comment on selected social media posts.</li>
+        <li>Rate products and submit screenshots as proof.</li>
+        <li>Message our “HR team” on Telegram for your task level.</li>
+      </ul>
+
+      <h2>🚀 How to get started</h2>
+      <p>DM us “I'M IN” on Telegram within the next 30 minutes. No formal interview needed — we're hiring everyone who is ready to hustle.</p>
+      <p class="red">A refundable ₹499 “account activation fee” is required before your first payout.</p>
+      <p>Send your full name, phone number, UPI ID and payment screenshot to unlock your starter tasks.</p>
+
+      <button class="apply" onclick="alert('Demo only — no application or payment is being collected.')">I'm In — Apply Now</button>
+      <p class="small">This button is disabled from real recruitment: it only shows a demo message.</p>
+    </section>
+
+    <aside class="card">
+      <h2 style="margin-top:0">Job snapshot 👀</h2>
+      <p><strong>Role</strong><br>Social Media Hype Assistant</p>
+      <p><strong>Company</strong><br>NextGen Viral Labs (fictional)</p>
+      <p><strong>Salary</strong><br><span class="salary">₹60k–₹90k/month</span></p>
+      <p><strong>Experience</strong><br>None required</p>
+      <p><strong>Interview</strong><br>None</p>
+      <p><strong>Contact</strong><br>Telegram DM only</p>
+      <div class="warning">
+        <strong>🚩 Potential red flags</strong>
+        <ul>
+          <li>High pay for vague, simple tasks</li>
+          <li>Upfront activation fee</li>
+          <li>Urgent “limited spots” pressure</li>
+          <li>Requests for UPI and payment proof</li>
+          <li>Moves hiring chat to Telegram</li>
+        </ul>
+      </div>
+      <p class="small">These signals make this a useful synthetic test case, but your trained model may classify it differently. Gen Z slang alone is not evidence of fraud.</p>
+    </aside>
+  </main>
+  <footer>Fictional demo webpage for an academic Fake Job Posting Detection project.</footer>
+</body>
+</html>

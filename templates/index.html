@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block title %}JobShield | Home{% endblock %}
+{% block content %}<section class="hero"><p class="eyebrow">NLP + MACHINE LEARNING</p>
+<h1>Detect potentially fraudulent job postings.</h1>
+<p>Analyze public job text with a transparent, student-friendly fraud-risk classifier. Review evidence before taking action.</p>
+<a class="button" href="{{ url_for('analyze') }}">Analyze a job posting</a></section>
+<section class="cards"><article><h2>Evidence-based</h2><p>TF-IDF and trained classifiers produce an actual probability when model artifacts are available.</p></article>
+<article><h2>Flexible input</h2><p>Paste details manually or provide a public URL. Scraping failures never block manual analysis.</p></article>
+<article><h2>Responsible alerts</h2><p>Emails require explicit confirmation and configured credentials.</p></article></section>{% endblock %}

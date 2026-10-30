@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block title %}Analyze | JobShield{% endblock %}
+{% block content %}<section class="page-heading"><p class="eyebrow">ANALYZE</p><h1>Analyze a job posting</h1><p>Use a public job-posting URL, or enter the information you have.</p></section>
+<form method="post" class="form-grid">
+<label class="wide">Public job-posting URL<input type="url" name="url" value="{{ (values or {}).get('url','') }}" placeholder="https://example.com/jobs/123"><small>Only links containing a job, career, vacancy, position, opening, or apply path are accepted.</small></label>
+<label>Job title<input name="title" value="{{ (values or {}).get('title','') }}"></label>
+<label>Company<input name="company" value="{{ (values or {}).get('company','') }}"></label>
+<label>Salary<input name="salary" value="{{ (values or {}).get('salary','') }}"></label>
+<label>Location<input name="location" value="{{ (values or {}).get('location','') }}"></label>
+<label class="wide">Description<textarea name="description" rows="7">{{ (values or {}).get('description','') }}</textarea></label>
+<label class="wide">Requirements<textarea name="requirements" rows="4">{{ (values or {}).get('requirements','') }}</textarea></label>
+<label class="wide">Contact information<input name="contact" value="{{ (values or {}).get('contact','') }}"></label>
+<div class="wide"><button class="button" type="submit">Analyze job</button></div></form>{% endblock %}

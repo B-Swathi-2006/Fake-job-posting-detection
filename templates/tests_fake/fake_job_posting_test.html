@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareerHub - Software Developer Job</title>
+<style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f6f8;
+        color: #222;
+    }
+    header {
+        background: #163a5f;
+        color: white;
+        padding: 20px 8%;
+    }
+    header h1 { margin: 0; font-size: 28px; }
+    header p { margin: 5px 0 0; opacity: .9; }
+    .container {
+        width: 85%;
+        max-width: 1000px;
+        margin: 30px auto;
+    }
+    .job-card {
+        background: white;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 3px 15px rgba(0,0,0,.08);
+    }
+    .badge {
+        display: inline-block;
+        background: #e8f1ff;
+        color: #1657a7;
+        padding: 7px 12px;
+        border-radius: 20px;
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    h2 { margin: 5px 0; font-size: 30px; }
+    .company { color: #555; font-size: 18px; }
+    .details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 25px 0;
+        padding: 20px;
+        background: #f8fafc;
+        border-radius: 8px;
+    }
+    .detail strong { display: block; margin-bottom: 5px; }
+    section { margin-top: 28px; }
+    section h3 { color: #163a5f; }
+    li { margin: 8px 0; }
+    .warning {
+        background: #fff4d6;
+        border-left: 5px solid #e2a400;
+        padding: 15px;
+        margin-top: 25px;
+    }
+    .apply {
+        margin-top: 30px;
+        padding: 16px 25px;
+        border: 0;
+        border-radius: 7px;
+        background: #1769aa;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    footer {
+        text-align: center;
+        padding: 25px;
+        color: #777;
+        font-size: 13px;
+    }
+    @media(max-width:650px) {
+        .details { grid-template-columns: 1fr; }
+        .container { width: 94%; }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>CareerHub</h1>
+    <p>Find your next career opportunity</p>
+</header>
+
+<div class="container">
+    <div class="job-card">
+
+        <span class="badge">Urgent Hiring</span>
+
+        <h2>Junior Software Developer</h2>
+        <div class="company">Bright Future Technologies</div>
+
+        <div class="details">
+            <div class="detail">
+                <strong>Location</strong>
+                Bengaluru, India / Remote
+            </div>
+            <div class="detail">
+                <strong>Salary</strong>
+                ₹12,00,000 – ₹18,00,000 per year
+            </div>
+            <div class="detail">
+                <strong>Experience</strong>
+                No experience required
+            </div>
+            <div class="detail">
+                <strong>Employment Type</strong>
+                Full Time
+            </div>
+        </div>
+
+        <section>
+            <h3>Job Description</h3>
+            <p>
+                We are looking for enthusiastic candidates to join our rapidly
+                growing technology company. Candidates with basic computer
+                knowledge can apply. Selected candidates will work on software
+                development and online projects.
+            </p>
+            <p>
+                No previous programming experience is required. Complete
+                training will be provided to selected candidates.
+            </p>
+        </section>
+
+        <section>
+            <h3>Requirements</h3>
+            <ul>
+                <li>Basic computer knowledge</li>
+                <li>Good communication skills</li>
+                <li>Willingness to learn</li>
+                <li>No degree or previous experience required</li>
+                <li>Immediate joining preferred</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Benefits</h3>
+            <ul>
+                <li>High salary package</li>
+                <li>Work from home option</li>
+                <li>Fast promotion opportunities</li>
+                <li>Free online training</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Application Process</h3>
+            <p>
+                Interested candidates should contact our recruitment team
+                immediately to reserve an interview slot.
+            </p>
+            <p>
+                Email: <strong>brightfuture.recruitment@gmail.com</strong>
+            </p>
+            <p>
+                Candidates must pay a refundable registration and training
+                processing fee of <strong>₹2,999</strong> before the interview.
+            </p>
+        </section>
+
+        <div class="warning">
+            <strong>Important:</strong>
+            This webpage is a fictional test page created for a college
+            Fake Job Posting Detection project. It is not a real employment
+            opportunity.
+        </div>
+
+        <button class="apply" onclick="alert('This is a fictional test job. No application will be submitted.')">
+            Apply Now
+        </button>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 CareerHub — Fictional testing webpage for academic demonstration
+</footer>
+
+</body>
+</html>
